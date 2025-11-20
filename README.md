@@ -1,20 +1,25 @@
 # Naive-Bayes-Classifier-Adult-Income-Prediction
 
+
+
 This project implements a Naive Bayes classifier to predict whether a person earns >50K or ≤50K per year using the Adult Income Dataset (adult.csv).
-The model uses demographic and employment attributes to learn probabilistic patterns and classify income categories.
 
- Dataset: adult.csv
+Dataset
+File: adult.csv
+Contains demographic and income-related attributes.
 
- 🚀 Features of the Project
-
-Data preprocessing (handling missing values, encoding, cleaning)
-
+Features of the Project
+Data preprocessing
 Train–test split
-
 Naive Bayes model training
-
 Prediction & evaluation
+Accuracy score + classification report
+Easy-to-modify ML code
 
-Accuracy score and classification report
+Project Structure
+project/
+ ├── adultIncome.py
+ ├── adult.csv
+ └── README.md
+ 
 
-Easy-to-modify code for any ML coursework
